@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    background-color: blue;
+    color: aliceblue;
+}
+p{
+    color: violet;
+}
+
+#dolor{
+    color: black;
+}
+
+.red-text{
+    color: red;
+}
+
+.green-back{
+    background-color: green;
+}
+
+#dolor span{
+    background-color: tomato;
+}
+
