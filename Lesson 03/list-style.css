@@ -1,0 +1,28 @@
+ol{
+    /* list-style:lower-greek; */
+    list-style: decimal; 
+    & ul{
+        list-style: circle;
+        color: blueviolet;
+        list-style-position: inside;
+    }   
+}
+
+ul{
+    list-style: square;
+    
+}
+
+/* ol ul{
+    list-style: circle;
+    color: blueviolet;
+     list-style-position: inside; 
+} 
+*/
+
+.img-list{
+    list-style-image: url(icons/user.png);
+}
+#inet{
+    list-style-image: url(icons/globe.png);
+}

@@ -1,0 +1,15 @@
+body{
+    /* background-color: aqua; */
+    /* background-color: rgb(124, 123, 35); */
+    /* background-color: rgba(124, 122, 35, 0.5); */
+    /* background-color: #7c7b23; */
+    background-color: #ecf0f1;
+    
+}
+
+p{
+    font-size: 35px;
+    font-weight: 900;
+    color: #34495e;
+    text-shadow: 3px 2px 3px rgba(80, 100, 180, 0.52);
+}
