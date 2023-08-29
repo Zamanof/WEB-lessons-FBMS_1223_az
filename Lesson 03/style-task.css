@@ -1,0 +1,50 @@
+/* #main{
+    list-style-type: upper-roman;
+}
+.number{
+    list-style-type: decimal;
+}
+.letter{
+    list-style-type: lower-alpha;
+} */
+
+ol{
+    list-style-type: upper-roman;
+    & ol{
+        list-style-type: decimal;
+        & ol{
+            list-style-type: lower-alpha;
+        }
+    }
+}
+#seasons{
+    list-style-type: decimal;
+}
+
+#winter{
+    color: blue;
+    & ul{
+        list-style-image: url(icons/snow.png);
+    }
+}
+
+#spring{
+    color: green;
+    & ul{
+        list-style-image: url(icons/leaf.png);
+    }
+}
+
+#summer{
+    color: orange;
+    & ul{
+        list-style-image: url(icons/sun.png);
+    }
+}
+
+#autumn{
+    color: brown;
+    & ul{
+        list-style-image: url(icons/rain.png);
+    }
+}
