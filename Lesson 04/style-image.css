@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+#sunrise{
+    width: 300px;
+    /* height: 100px; */
+}
+
+#jawed{
+    width: 50%;
+    margin: 50px;
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+    /* border: 20px solid #9e1caa; */
+    border-radius: 50%;
+    /* border-radius: 50px 100px; */
+    /* border-radius: 50px 100px 30px; */
+    /* border-radius: 50px 100px 30px 10px; */
+    /* border-radius: 100px/50px; */
+    /* border-radius: 100px 50px; */
+}
+
+#jeep{
+    width: 250px;
+    float: left;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 50%;
+}

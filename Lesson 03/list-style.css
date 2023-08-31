@@ -26,3 +26,11 @@ ul{
 #inet{
     list-style-image: url(icons/globe.png);
 }
+
+
+#symb{
+    list-style-type: none;
+    & li::before{
+        content: '- ';
+    }
+}
