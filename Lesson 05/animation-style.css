@@ -1,0 +1,139 @@
+#call{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* transition: all 1.8s ease 0s; */
+    /* transition-property: background-color;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0; */
+
+    transition: background-color 1.8s ease 0s,
+    color 0.7s ease-in-out 1.1s;
+}
+
+#call:hover{
+    background-color: red;
+    color: black;
+}
+
+.block{
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+    position: relative;
+}
+
+.block a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 2em 0;
+    position: absolute;
+    z-index: 2;
+
+}
+.b-1{
+    background-color: #e74c3c;
+}
+
+.b-2{
+    background-color: #16a085;
+}
+
+.b-1::before{
+    content: '';
+    background-color: #16a085;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: 1s;
+}
+
+.b-2::before{
+    content: '';
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: 1s;
+}
+
+.b-1:hover::before,
+.b-2:hover::before{
+    height: 100%;
+} 
+
+
+#square-red{
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #e74c3c;
+    position:absolute;  
+}
+
+#square-blue{
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #16a085;
+    transform-origin: 0% 0%;
+    transform: translate(0,0) rotate(0);
+
+
+    position:absolute;
+    transition: transform 1s ease 0s;
+}
+#square-blue:hover{
+    transform: translate(150px,50px) rotate(50deg);
+}
+
+body, p{
+    margin: 0;
+}
+
+#callback{
+    width: 300px;
+    height: 150px;
+    background-color: #16a085;
+    position: absolute;
+    transition: left 1s ease 0s;
+    left: -300px;
+    & p{
+        color: #ecf0f1;
+        padding: 30px;
+    }
+}
+
+#callback:after{
+    content: "Callback";
+    background-color: #e74c3c;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    width: 150px;
+    padding: 5px 0;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+}
+
+#callback:hover{
+    left: 0;
+}
