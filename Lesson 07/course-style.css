@@ -90,3 +90,71 @@ h2{
     content: "$";
 }
 
+.top{
+    border: 3px double #666;
+    border-top-right-radius: 20px;
+    background-color: #ff6825;
+    color: #fff;
+    text-align: center;
+    min-height: 150px;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.red{
+    background-color: #900;
+}
+
+.blue{
+    background-color: #1b3d89;
+}
+
+.violet{
+    background-color: #5a109f;
+}
+
+.green{
+    background-color: #18b430;
+}
+
+.promo{
+    width: 70%;
+    background-color: #ffce00;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 0 15px 15px 0;
+    color:#222;
+    margin-left: -15px;
+    margin-top: -5px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #ccc;
+    border-top: 2px solid #666;
+}
+
+.footer-bottom{
+    background-color: #111;
+    color: #fff;
+    border-top: 2px solid #666;
+}
+
+.col{
+    width: 30.33%;
+    float: left;
+    padding: 1.5%;
+}
+
+ul.unstyled{
+   list-style-type: none;
+   padding: 0;
+   line-height: 170%; 
+}
+
+.text-right{
+    text-align: right;
+}
