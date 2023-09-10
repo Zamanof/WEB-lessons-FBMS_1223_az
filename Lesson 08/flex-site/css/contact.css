@@ -1,0 +1,24 @@
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    height: 38px;
+    width: 100%;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
+
+}
+
+input:focus, textarea:focus{
+    box-shadow: 0 0 12px rgba(15, 19, 132, 0.40);
+}
+
+textarea{
+    min-height: 145px;
+}
